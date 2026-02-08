@@ -1,0 +1,62 @@
+{
+  "profile_id": "cxr.example.stub",
+  "display_name": "CXR Example (Stub Only)",
+  "device": {
+    "vendor": "Example",
+    "model": "Stub",
+    "platform": "generic"
+  },
+  "capabilities": {
+    "timing": { "required": true, "provider": "timing.stub" },
+    "display": { "required": false, "provider": "display.stub" },
+    "pose.head": { "required": true, "provider": "pose.head.stub" },
+    "tracking.world": { "required": false, "provider": "tracking.world.stub" },
+    "input.controllers": { "required": false, "provider": "input.controllers.stub" },
+    "input.hands": { "required": false, "provider": "input.hands.stub" },
+    "haptics": { "required": false, "provider": "haptics.stub" }
+  },
+  "providers": [
+    {
+      "provider_id": "timing.stub",
+      "provider_type": "timing",
+      "capabilities": ["timing"],
+      "config": {}
+    },
+    {
+      "provider_id": "display.stub",
+      "provider_type": "display",
+      "capabilities": ["display"],
+      "config": {}
+    },
+    {
+      "provider_id": "pose.head.stub",
+      "provider_type": "pose",
+      "capabilities": ["pose.head"],
+      "config": {}
+    },
+    {
+      "provider_id": "tracking.world.stub",
+      "provider_type": "tracking",
+      "capabilities": ["tracking.world"],
+      "config": {}
+    },
+    {
+      "provider_id": "input.controllers.stub",
+      "provider_type": "input",
+      "capabilities": ["input.controllers"],
+      "config": {}
+    },
+    {
+      "provider_id": "input.hands.stub",
+      "provider_type": "input",
+      "capabilities": ["input.hands"],
+      "config": {}
+    },
+    {
+      "provider_id": "haptics.stub",
+      "provider_type": "haptics",
+      "capabilities": ["haptics"],
+      "config": {}
+    }
+  ]
+}
