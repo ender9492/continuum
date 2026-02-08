@@ -61,16 +61,17 @@ Continuum prioritizes **longevity, ownership, and privacy** over polish or platf
 
 ---
 
-## Architecture (Runtime-First)
+## Architecture (Runtime-First, OpenXR-Centric)
 
+```mermaid
 flowchart TD
     A[XR Apps / Game Engines<br/>(Unity, Unreal, Native, WebXR)]
     B[OpenXR API]
     C[Continuum Runtime]
-    D[Providers<br/>(Head, Hands, Controllers, Passthrough, Eye)]
+    D[Providers<br/>(Head, Hands, Controllers,<br/>Passthrough, Eye)]
     E[Profiles & Calibration<br/>(Headset / Controller / Hand / Eye)]
     F[OS Substrate<br/>(AOSP / Android XR / Linux)]
-    G[Hardware Sensors & Display<br/>(Cameras, IMU, Depth, Eye Sensors, Panels)]
+    G[Hardware Sensors & Display<br/>(Cameras, IMU, Depth,<br/>Eye Sensors, Panels)]
 
     A --> B
     B --> C
@@ -78,6 +79,7 @@ flowchart TD
     D --> E
     E --> F
     F --> G
+```
 
 ---
 
