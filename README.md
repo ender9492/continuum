@@ -22,7 +22,7 @@ The current focus is correctness of structure and interfaces, not implementation
 
 ## Where to start reading
 
-- For the full original vision and rationale, see [`docs/vision.md`](docs/vision.md).
+- [`docs/vision.md`](docs/vision.md) — full original vision and rationale
 - [`docs/architecture.md`](docs/architecture.md) — high-level system design and philosophy
 - Folder-level READMEs — explain intent and boundaries of each subsystem
 
