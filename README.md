@@ -65,13 +65,13 @@ Continuum prioritizes **longevity, ownership, and privacy** over polish or platf
 
 ```mermaid
 flowchart TD
-    A[XR Apps / Game Engines<br/>(Unity, Unreal, Native, WebXR)]
-    B[OpenXR API]
-    C[Continuum Runtime]
-    D[Providers<br/>(Head, Hands, Controllers,<br/>Passthrough, Eye)]
-    E[Profiles & Calibration<br/>(Headset / Controller / Hand / Eye)]
-    F[OS Substrate<br/>(AOSP / Android XR / Linux)]
-    G[Hardware Sensors & Display<br/>(Cameras, IMU, Depth,<br/>Eye Sensors, Panels)]
+    A["XR Apps / Game Engines\n(Unity • Unreal • Native • WebXR)"]
+    B["OpenXR API"]
+    C["Continuum Runtime"]
+    D["Providers\n(Head • Hands • Controllers • Passthrough • Eye)"]
+    E["Profiles & Calibration\n(Headset • Controller • Hand • Eye)"]
+    F["OS Substrate\n(AOSP • Android XR • Linux)"]
+    G["Hardware Sensors & Display\n(Cameras • IMU • Depth • Eye Sensors • Panels)"]
 
     A --> B
     B --> C
